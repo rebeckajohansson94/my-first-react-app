@@ -1,3 +1,3 @@
 export default function SidebarButton({ text }) {
-  return <button>{text}</button>;
+  return <button className="sidebar-btn">{text}</button>;
 }

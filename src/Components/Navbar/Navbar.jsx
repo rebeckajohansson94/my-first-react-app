@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export default function Navbar() {
+  const [menu, setMenu] = useState(false);
+
   const navbarLinks = [
     { text: "Home", href: "#" },
     { text: "About", href: "#" },
@@ -7,11 +11,11 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <button className="hamburger">
+      <button className="hamburger" onClick={() => setMenu(!menu)}>
         <i className="fas fa-bars"></i>
       </button>
 
-      <ul className="navbar-list">
+      <ul className={`navbar-list ${menu ? "show" : ""}`}>
         {navbarLinks.map((link) => (
           <li key={link.text}>
             <a href={link.href}>{link.text}</a>
