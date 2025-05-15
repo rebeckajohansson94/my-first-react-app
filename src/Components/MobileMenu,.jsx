@@ -16,7 +16,7 @@ export default function MobileMenu({ isOpen }) {
           <a href="#">Contact us</a>
         </li>
       </ul>
-      <div mobile-tasks>
+      <div>
         <SidebarButton text="Task 1" />
         <SidebarButton text="Task 2" />
         <SidebarButton text="Task 3" />

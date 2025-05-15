@@ -16,8 +16,8 @@ export default function Navbar() {
         <i className="fas fa-bars"></i>
       </button>
 
-      {/* For big screens/desktop : */}
-      <ul className="navbar-list desktop-only">
+      {/* For big screens/desktop view : */}
+      <ul className="navbar-list">
         {navbarLinks.map((link) => (
           <li key={link.text}>
             <a href={link.href}>{link.text}</a>
