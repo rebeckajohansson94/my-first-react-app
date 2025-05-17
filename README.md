@@ -1,12 +1,18 @@
-# React + Vite
+# My First React App
+**Website:** https://rebeckajohansson94.github.io/my-first-react-app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is the starting point of a responsive React-based layout. It includes a navigation bar, a sidebar for desktop view, and a mobile menu (which combines the sidebar and navbar into a hamburger menu) – built with reusable components and styled with CSS. The goal is to build a complete application layout that will be expanded with more functionality and content.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Structure
+- `App.jsx` – The root component that renders the layout
+- `Navbar.jsx` – Top navigation bar, includes mobile menu toggle
+- `MobileMenu.jsx` – Responsive mobile navigation menu
+- `Sidebar.jsx` – A sidebar shown on desktop view
+- `SidebarButton.jsx` – Reusable button component used in sidebar and mobile view
+- `NavLinks.jsx` – Array of shared navigation links
+- `index.css` – Global and responsive styling
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Author:** Rebecka Johansson
