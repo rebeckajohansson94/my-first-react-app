@@ -1,20 +1,18 @@
+/* Component for mobile view only */
+
 import SidebarButton from "./Sidebar/SidebarButton";
 
-export default function MobileMenu({ isOpen }) {
+export default function MobileMenu({ isOpen, links }) {
   if (!isOpen) return null;
 
   return (
     <div className="mobile-menu">
       <ul className="mobile-nav-links">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Contact us</a>
-        </li>
+        {links.map((link) => (
+          <li key={link.text}>
+            <a href={link.href}>{link.text}</a>
+          </li>
+        ))}
       </ul>
       <div>
         <SidebarButton text="Task 1" />

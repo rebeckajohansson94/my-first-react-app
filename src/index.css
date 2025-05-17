@@ -126,6 +126,7 @@ li:hover,
     color: white;
   }
 
+  /* Styling for Mobile Menu */
   .mobile-menu {
     position: fixed;
     top: 4rem;

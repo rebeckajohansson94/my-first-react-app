@@ -1,6 +1,6 @@
 import SidebarButton from "./SidebarButton";
 
-export default function SideBar() {
+export default function Sidebar() {
   return (
     <aside className="sidebar">
       <SidebarButton text="Task 1" />

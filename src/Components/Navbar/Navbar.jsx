@@ -1,14 +1,9 @@
 import { useState } from "react";
-import MobileMenu from "../MobileMenu,";
+import MobileMenu from "../MobileMenu";
+import navbarLinks from "./NavLinks";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const navbarLinks = [
-    { text: "Home", href: "#" },
-    { text: "About", href: "#" },
-    { text: "Contact us", href: "#" },
-  ];
 
   return (
     <nav className="navbar">
@@ -16,7 +11,7 @@ export default function Navbar() {
         <i className="fas fa-bars"></i>
       </button>
 
-      {/* For big screens/desktop view : */}
+      {/* Shown only on larger screens */}
       <ul className="navbar-list">
         {navbarLinks.map((link) => (
           <li key={link.text}>
@@ -25,8 +20,8 @@ export default function Navbar() {
         ))}
       </ul>
 
-      {/* For mobile-version : */}
-      <MobileMenu isOpen={menuOpen} />
+      {/* Shown only in mobile view */}
+      <MobileMenu isOpen={menuOpen} links={navbarLinks} />
     </nav>
   );
 }
