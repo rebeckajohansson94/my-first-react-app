@@ -1,5 +1,4 @@
 # My First React App
-**Website:** https://rebeckajohansson94.github.io/my-first-react-app/
 
 ## Description
 This project is the starting point of a responsive React-based layout. It includes a navigation bar, a sidebar for desktop view, and a mobile menu (which combines the sidebar and navbar into a hamburger menu) – built with reusable components and styled with CSS. The goal is to build a complete application layout that will be expanded with more functionality and content.
