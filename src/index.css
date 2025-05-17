@@ -90,6 +90,10 @@ li:hover,
   display: flex;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 768px) {
@@ -179,11 +183,5 @@ li:hover,
 
   .sidebar-btn {
     width: 30vw;
-  }
-}
-
-@media (min-width: 769px) {
-  .mobile-menu {
-    display: none;
   }
 }

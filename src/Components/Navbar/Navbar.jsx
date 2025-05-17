@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MobileMenu from "../MobileMenu";
+import MobileMenu from "../Responsive/MobileMenu";
 import navbarLinks from "./NavLinks";
 
 export default function Navbar() {

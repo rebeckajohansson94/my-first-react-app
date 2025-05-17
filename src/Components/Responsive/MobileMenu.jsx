@@ -1,6 +1,6 @@
-/* Component for mobile view only */
+/* Component for hamburger menu in mobile view only */
 
-import SidebarButton from "./Sidebar/SidebarButton";
+import SidebarButton from "../Sidebar/SidebarButton";
 
 export default function MobileMenu({ isOpen, links }) {
   if (!isOpen) return null;
