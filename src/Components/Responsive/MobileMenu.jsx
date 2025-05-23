@@ -15,9 +15,10 @@ export default function MobileMenu({ isOpen, links }) {
         ))}
       </ul>
       <div>
-        <SidebarButton text="Task 1" />
-        <SidebarButton text="Task 2" />
-        <SidebarButton text="Task 3" />
+        <SidebarButton text="The Fellowship of the ring" />
+        <SidebarButton text="The Two Towers" />
+        <SidebarButton text="The Return of the King" />
+        <SidebarButton text="The Hobbit: An Unexpected Journey" />
       </div>
     </div>
   );
