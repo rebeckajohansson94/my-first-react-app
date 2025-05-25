@@ -1,7 +1,7 @@
 # My First React App
 
 ## Description
-This project is the starting point of a responsive React-based layout. It includes a navigation bar, a sidebar for desktop/tablet view, a mobile/responsive menu (which combines the sidebar and navbar into a single hamburger menu) and a tag/categories component – built with reusable components and styled with CSS. The goal is to build a complete application layout that will be expanded further with more functionality and content.
+This project is a completed school assignment focused on building a responsive layout using React. It serves as the starting point for a React-based application and includes a navigation bar, a header section, a sidebar for desktop/tablet view, a mobile/responsive menu (which combines the sidebar and navbar into a single hamburger menu), a post list with a Lord of the Rings theme, and a tag/categories section – all built with reusable components and styled with CSS. The goal is to establish a complete and extendable foundation that will later be expanded with more interactivity and functionality.
 
 
 ## Structure
